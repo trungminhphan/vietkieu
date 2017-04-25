@@ -1,0 +1,36 @@
+.login-form {
+	/*width: 400px;
+	height: 350px;
+    position: fixed;
+    top: 50%;
+    margin-top: -150px;
+    left: 50%;
+    margin-left: -200px;
+    padding: 1.875rem;
+    background-color: #ffffff;
+    opacity: 0;
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
+    max-width: 400px;
+    position: relative;*/
+    padding: .625rem 1.825rem .625rem 2.5rem;
+    position: relative;
+    margin: 0 0 .625rem 0;
+    background-color: #ffffff;
+}
+#homepage{
+    margin: auto;
+    width: 700px;
+    height: 400px;
+    padding: 10px;
+    background-image: url('../images/cover.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+form input.error{
+    border: 1px solid #ff0000;
+    background: #ffed55;
+}
+form label.error {
+  display: inline-block !important;
+}
